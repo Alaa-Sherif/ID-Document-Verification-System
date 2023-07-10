@@ -1,0 +1,29 @@
+uvicorn api_app:app --reload
+
+*** Personal_image:
+No_Faces_Detected
+Multiple_People
+Too_Small_Face
+Pixelated_Face
+
+*** Personal_Id:
+Oops!! Wrong Image\nPlease upload a clear image for your National ID
+Not_ID
+
+'Error: Can\'t detect ' + self.classes_names + ' . Please, make sure that the uploaded image is a clear and not rotated front of the ID Card image'
+Error: Can\'t detect name and id . Please, make sure that the uploaded image is a clear and not rotated front of the ID Card image
+Detection_Failure
+
+"Error: No name was recognized. Please make sure the name section in the uploaded image is clear and the image is not cropped."
+Name_Recognition_Failure
+
+"Error: no id predicted. Please make sure the uploaded image is a clear, non-blurry, and not rotated ID card and the ID part is not occluded."
+ID_Recognition_Failure
+
+** Grad Certi
+"Oops!! Wrong Image\nPlease upload a clear image for your Bachelor Certificate"
+Not_Bachelor_Certificate
+
+** Military Certi
+"Oops!! Wrong Image\nPlease upload a clear image for your Military Certificate"
+Not_Military_Certificate
