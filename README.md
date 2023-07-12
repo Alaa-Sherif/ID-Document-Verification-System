@@ -1,4 +1,4 @@
-# ID-Document-Verification-System
+# ID-Documents-Verification-System
 ITI Graduation Project - ID and Document Verification System
 
 ## Problem Statement
