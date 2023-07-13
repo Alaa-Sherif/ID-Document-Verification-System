@@ -19,7 +19,6 @@ brotlipy==0.7.0
 cachetools==5.3.1
 check-orientation==0.0.5
 clyent==1.2.1
-conda==4.3.16
 fastapi==0.99.1
 flair==0.12.2
 huggingface-hub==0.15.1
