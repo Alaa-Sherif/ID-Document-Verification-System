@@ -19,7 +19,7 @@ brotlipy==0.7.0
 cachetools==5.3.1
 check-orientation==0.0.5
 clyent==1.2.1
-conda==23.3.1
+conda==4.3.16
 conda-build==3.24.0
 conda-repo-cli==1.0.41
 conda-verify==3.4.2
