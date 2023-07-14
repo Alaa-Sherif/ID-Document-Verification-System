@@ -123,9 +123,9 @@ def full_pipeline(data):
     return "Done!\n"
            
 
-data = pd.read_csv("test_data.csv")
-# images_path = data['image_path']
-message = full_pipeline(data)
-print(message)
+# data = pd.read_csv("test_data.csv")
+# # images_path = data['image_path']
+# message = full_pipeline(data)
+# print(message)
 
 
