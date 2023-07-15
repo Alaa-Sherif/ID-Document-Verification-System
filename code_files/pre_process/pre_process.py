@@ -46,10 +46,10 @@ opencv_home = cv2.__file__
 folders = opencv_home.split(os.path.sep)[0:-1]
 path = folders[0]
 for folder in folders[1:]:
-	path = path + "\\" + folder
-path_for_face = path+"\\data\\haarcascade_frontalface_default.xml"
-path_for_eyes = path+"\\data\\haarcascade_eye.xml"
-path_for_nose = path+"\\data\\haarcascade_mcs_nose.xml"
+	path = path + "/" + folder
+path_for_face = path+"/data/haarcascade_frontalface_default.xml"
+path_for_eyes = path+"/data/haarcascade_eye.xml"
+path_for_nose = path+"/data/haarcascade_mcs_nose.xml"
 
 if os.path.isfile(path_for_face) != True:
 	raise ValueError(
